@@ -1,0 +1,370 @@
+/*General*/
+
+:root {
+    --dark-green: #004643;
+    --sage: #abd1c6;
+    --white: #fffffe;
+    --green: #709775;
+    --pink: #e8b4b8;
+}
+
+* {
+    font-family: Andale Mono, monospace;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+@media (max-width: 61.25em) {
+    html {
+        font-size: 58%;
+    }
+}
+
+@media (max-width: 75em) {
+    html {
+        font-size: 60%;
+    }
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+/*NavBar Style*/
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--green);
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.nav-list a:hover {
+    background-color: var(--sage);
+    color: var(--dark-green);
+    transition: color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list {
+    display: flex;
+    margin: 0px;
+}
+.nav-list a {
+    display: block;
+    padding: 10px;
+}
+
+/*Main Style*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--sage);
+    background-color: var(--dark-green);
+    padding: 60px 0 0;
+    text-align: center;
+    margin: 0;
+    background-image: url('https://i.pinimg.com/originals/89/53/58/8953585e52af9dec801c9e84f07ea33f.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 2%;
+}
+
+section {
+    display: block;
+}
+
+.avatar {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    width: 16vw;
+    height: 16vw;
+    border-width: 0.5vw;
+    border-color: var(--green);
+    border-style: solid;
+}
+
+p {
+    color: var(--sage);
+    font-size: 30px;
+    margin-top: 0;
+}
+
+p.project-title {
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--white);
+    margin: 0;
+    text-shadow: 0 0 1px 2px black;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--green);
+    margin: 0;
+    text-shadow: 1px 1px 1px black;
+    font-size: 40px;
+    text-align: center;
+}
+
+h3 {
+    color: var(--white);
+    margin: 30px auto;
+    font-size: 30px;
+}
+
+.project-image {
+    height: 330px;
+    width: 330px;
+    object-fit: cover;
+    border-radius: 5%;
+    margin: auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 25px auto 6rem;
+}
+
+.contact-icons {
+    margin: 0;
+    justify-content: space-around;
+}
+
+.contact-section {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.bottom-img {
+    background-image: url('https://i.pinimg.com/originals/db/b5/fd/dbb5fd8b25e3fd584d3dc439eb6d0d82.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+/* Profile section */
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Certificates section */
+.certificates {
+    margin: 80px auto;
+}
+
+.logo-course {
+    width: 4vw;
+    margin: 5px auto 0;
+}
+
+.udemy-logo {
+    width: 2vw;
+}
+
+.cv-link {
+    border: 2px solid var(--sage);
+    padding: 2.5px 5px;
+    font-size: smaller;
+    color: var(--white);
+    width: 10vw;
+    margin: 60px auto 0;
+}
+
+.spotify {
+    width: 45%;
+}
+
+/*Links Style*/
+
+a {
+    text-decoration: none;
+    color: var(--sage);
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--sage);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--pink);
+}
+
+.project-title:hover {
+    text-decoration: none;
+    background-color: var(--sage);
+    color: var(--dark-green);
+    transition: color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.contact-link {
+    margin-top: 10px;
+}
+
+/* Button Sroll Top */
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: var(--pink); /* Set a background color */
+    color: var(--dark-green); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: var(--sage); /* Add a dark-grey background on hover */
+}
+
+/* APP */
+@media (max-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        background-size: contain;
+        background-position-y: 3.2%;
+    }
+    .navbar,
+    .contact-links {
+        display: none;
+    }
+    .navbar-mini,
+    .contact-links-mini {
+        display: flex !important;
+    }
+    .avatar {
+        width: 35vw;
+        height: 35vw;
+        border-width: 1.5vw;
+    }
+    .logo-course {
+        width: 12vw;
+        margin: 5px auto 0;
+    }
+    h1 {
+        font-size: 11vw !important;
+        margin-top: 20px;
+    }
+    p {
+        font-size: 6vw !important;
+        margin-bottom: 15px;
+    }
+    h2 {
+        font-size: 8vw !important;
+    }
+    h3 {
+        display: none;
+    }
+    .list-certificates {
+        font-size: 5vw;
+    }
+    .cv-link {
+        font-size: 20px;
+        width: 30vw;
+    }
+    .spotify {
+        width: 55% !important;
+    }
+    .project-image {
+        height: 48vw;
+        width: 48vw;
+    }
+
+    .projects-grid {
+        grid-gap: 2vw;
+        margin: 25px auto 50px;
+    }
+
+    .project-title {
+        font-size: 18px !important;
+        margin-bottom: 10px;
+    }
+
+    .project-section {
+        padding: 0 2vw;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .contact-section {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+}
+
+.navbar-mini {
+    display: none;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    font-size: 21px;
+    align-items: center;
+    z-index: 99;
+    padding-top: 4.5%;
+    padding-bottom: 2%;
+    background-color: var(--green);
+}
+
+.contact-links-mini {
+    display: none;
+    font-size: 8vw;
+    justify-content: space-around;
+}
+
+i {
+    margin: 0;
+}
+
+.navmini-link {
+    font-size: 32px;
+    margin: auto 10px;
+}
