@@ -8,8 +8,10 @@ import ImageAvatars from "./Avatar";
 import Projects from "./Projects";
 import Contacts from "./Contacts";
 import Appbar from "./Appbar";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 export default function App() {
+  const isBig = useMediaQuery(theme.breakpoints.up("sm"));
   return (
     <Container
       maxWidth={false}

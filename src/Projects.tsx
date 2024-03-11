@@ -21,7 +21,7 @@ export default function Projects() {
         backgroundRepeat: "no-repeat",
         backgroundSize: "100%",
         backgroundPosition: "bottom",
-        pb: 5,
+        pb: 30,
       }}
       id="projects"
     >
@@ -32,7 +32,7 @@ export default function Projects() {
             variant="h5"
             component="h2"
             sx={{
-              mt: 5,
+              mt: 10,
               pt: 6.5,
               mb: 2,
               color: theme.palette.secondary.main,
