@@ -17,7 +17,7 @@ export default function CvButtons() {
         target="_blank"
         color="secondary"
         aria-label="Cv"
-        href="https://pdfhost.io/v/rLtj2.41p_Jasmin_Cortez_CV___WebDev"
+        href="https://pdfhost.io/v/Itca0Wt7~_Jasmin_Cortez_CV___WebDev"
         sx={{
           borderRadius: "1rem",
           textTransform: "lowercase",
