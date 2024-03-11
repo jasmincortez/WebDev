@@ -47,12 +47,12 @@ export default function Projects() {
       <Container>
         <ImageList
           sx={{
-            width: isBig ? 832 : 416,
+            width: isBig ? 832 : 344,
             mx: "auto",
             maxWidth: "100vw",
           }}
           cols={isBig ? 4 : 2}
-          rowHeight={200}
+          rowHeight={isBig ? 200 : 164}
           gap={16}
         >
           {itemData.map((item) => (
