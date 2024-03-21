@@ -1,7 +1,6 @@
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import NavTabs from "./Nav";
 import theme from "./theme";
 import Certificates from "./Certificates";
 import ImageAvatars from "./Avatar";
