@@ -88,7 +88,7 @@ export default function NestedList() {
                 sx={{
                   pl: 4,
                 }}
-                href=""
+                href="https://www.freecodecamp.org/certification/jasmincortez/front-end-development-libraries"
                 target="_blank"
               >
                 <ListItemIcon>
