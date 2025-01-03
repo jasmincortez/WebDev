@@ -7,7 +7,7 @@ export default function ImageAvatars() {
     <Stack direction="row" spacing={2} sx={{ justifyContent: "center", pt: 6 }}>
       <Avatar
         alt="Jasmin Cortez"
-        src="./public/Jasmin.JPEG"
+        src="/Jasmin.JPEG"
         sx={{
           width: 200,
           height: 200,
