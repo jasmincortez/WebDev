@@ -96,7 +96,7 @@ const itemData = [
     url: "https://chavivo.com.br/",
   },
   {
-    img: "https://i.pinimg.com/originals/9f/9a/77/9f9a77d8b66300b3f7b3770fe3660318.jpg",
+    img: "https://i.pinimg.com/736x/3a/c4/68/3ac4682fceef54292f84646ab9b938a1.jpg",
     title: "Acting Portfolio",
     url: "https://jasmincortez.com/",
   },
