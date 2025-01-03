@@ -126,12 +126,6 @@ const itemData = [
     url: "https://jasmincortez.github.io/framboeja",
   },
   {
-    img: "https://i.pinimg.com/originals/da/57/af/da57affe2fdaed40724a28a6a66fd420.png",
-    title: "Product Page",
-    url: "https://jasmincortez.github.io/product-page",
-  },
-
-  {
     img: "https://images.rawpixel.com/image_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZHcxMS1ub29uMDAwMTctZXllLmpwZw.jpg",
     title: "Prefix Calculator",
     url: "https://codepen.io/jasmincortez/pen/GRwYqgY",
