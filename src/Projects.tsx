@@ -91,9 +91,14 @@ export default function Projects() {
 
 const itemData = [
   {
+    img: "https://i.pinimg.com/736x/da/57/af/da57affe2fdaed40724a28a6a66fd420.jpg",
+    title: "Chá Vivo",
+    url: "https://chavivo.com.br/",
+  },
+  {
     img: "https://i.pinimg.com/originals/9f/9a/77/9f9a77d8b66300b3f7b3770fe3660318.jpg",
     title: "Acting Portfolio",
-    url: "https://jasmincortez.github.io/JasminCortez/",
+    url: "https://jasmincortez.com/",
   },
   {
     img: "https://i.pinimg.com/originals/90/c8/91/90c8916246c86c2cf7e05730a70b21ed.png",
