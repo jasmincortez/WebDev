@@ -12,7 +12,7 @@ import FilterVintageIcon from "@mui/icons-material/FilterVintage";
 import MenuItem from "@mui/material/MenuItem";
 import theme from "./theme";
 
-const pages = ["certificates", "projects", "contacts"];
+const pages = ["certificates", "projects", "contact"];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
