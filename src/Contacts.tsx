@@ -13,7 +13,7 @@ export default function Contacts() {
       alignItems="center"
       justifyContent={"center"}
       spacing={1}
-      id="contacts"
+      id="contact"
     >
       {/* <Typography
         variant="body1"
